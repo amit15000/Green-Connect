@@ -1,0 +1,33 @@
+# Set the default behavior to CRLF for all text files
+* text eol=crlf
+
+# Explicitly declare text files and ensure they use CRLF line endings
+*.css text eol=crlf
+*.js text eol=crlf
+*.jsx text eol=crlf
+*.ts text eol=crlf
+*.tsx text eol=crlf
+*.html text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
+*.xml text eol=crlf
+*.yml text eol=crlf
+*.yaml text eol=crlf
+*.scss text eol=crlf
+*.sass text eol=crlf
+
+# Ensure that shell scripts have LF line endings (common in cross-platform scripts)
+*.sh text eol=lf
+
+# Ensure that binary files are treated as binary and not modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+*.pdf binary
+
+# Windows-specific files
+*.bat text eol=crlf
+*.cmd text eol=crlf

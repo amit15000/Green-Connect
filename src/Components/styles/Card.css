@@ -1,0 +1,143 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .card-heading {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(90deg, #11ba39, #04381d);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 4px solid #186520;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card-left,
+  .card-right {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .card-left {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  .choose-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ba1d22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .choose-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-right {
+    background-color: #ffffff;
+  }
+  
+  .card-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .card-contact {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .card-bio {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  .card-projects {
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .card {
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      max-width: 90%;
+    }
+  
+    .card-content {
+      flex-direction: column;
+    }
+  
+    .card-left,
+    .card-right {
+      flex: none;
+      width: 100%;
+    }
+  
+    .profile-image {
+      max-height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      max-width: 100%;
+    }
+  
+    .card-name {
+      font-size: 1.2rem;
+    }
+  
+    .card-bio {
+      font-size: 0.8rem;
+    }
+  
+    .choose-button {
+      font-size: 0.9rem;
+    }
+  }
+  

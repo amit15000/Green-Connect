@@ -1,0 +1,90 @@
+.header_rsc{
+    height: 100vh;
+    background-image: url("./assets//resources_main.jpeg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header_rsc h1{
+   font-weight: 700;
+   font-size: 4vw;
+   margin-right: 10vw;
+   text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+.header_rsc p{
+    font-size: 1vw;
+    max-width: 30%;
+    margin-right: 4vw;
+}
+.section2_rsc_img{
+    border-radius: 50%;
+}
+.section2_rsc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    align-items: center;
+    gap: 5vh;
+    background: #FAF9F9;
+    margin-bottom: 5vh;
+}
+.section2_rsc h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.section2_1_rsc{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    justify-content: center;
+    flex-direction: column;
+}
+.section2_1_rsc h2{
+    font-weight: 700;
+    font-size: 2vw;
+}
+.section2_1_rsc p{
+    max-width: 70%;
+    text-align: center;
+}
+.section2_2_rsc{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding: 0 6vw 0 6vw;
+    flex-wrap: wrap;
+}
+.colorwhite{
+    background-color: white;
+}
+.section4_rsc{
+    padding: 5vh 6vw 5vh 3vw;
+    margin-top: 10vh;
+    background-color: #F1EDED;
+}
+@media (max-width: 760px){
+    .section2_1_rsc h2{
+        font-weight: 700;
+        font-size: 5vw;
+    }
+    .section2_rsc h2{
+        font-size: 5vw;
+    }
+    .header_rsc{
+        align-items: center;
+    }
+    .header_rsc h1{
+        font-size: 8vw;
+        margin-right: 0;
+    }
+    .header_rsc p{
+       font-size: 3vw;
+       max-width: 70%;
+       margin-right: 0;
+       text-align: center;
+    }
+}

@@ -1,0 +1,185 @@
+.head_pd{
+    background-image: url("./assets//pd_main.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.head_pd_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+.head_pd_2 form{
+    width: 100%;
+}
+.head_pd_2 h1{
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+    text-shadow: 8px 8px 4px black;
+}
+.select_pd{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    max-height: 20%;
+}
+.select_pd select{
+    width: 20%;
+    height: 10vh;
+    font-size: 1.3vw;
+    border: 1px solid #747070;
+    background-color: #e4dfdf;
+}
+.select_pd select:focus{
+    outline: none;
+}
+.section2_pd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section2_pd h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: black;
+    margin: 10vh 0 2vh 0;
+}
+.section3_pd_comp{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2vw;
+    margin: 10vh 0 5vh 0;
+    background:linear-gradient(to right, white,white,rgb(190,186,186), rgb(190, 186, 186));
+}
+.section3_pd_comp_even{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 2vw;
+    margin: 10vh 0 5vh 0;
+    background: linear-gradient(to right, rgb(190,186,186),rgb(190,186,186),white,white)
+}
+.section3_pd_comp_even img{
+    border-radius: 50%;
+    width: 25vw;
+    transition: transform 0.5s ease-in-out;
+}
+.section3_pd_comp_even img:hover{
+    transform: scale3d(1.2,1.2,1.2);
+}
+.section3_pd_comp img{
+    border-radius: 50%;
+    width: 25vw;
+    transition: transform 0.5s ease-in-out;
+}
+.section3_pd_comp img:hover{
+    transform: scale3d(1.2,1.2,1.2);
+}
+.section3_pd_comp_2 h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.section3_pd_comp_2{
+    max-width: 50%;
+    height: fit-content;
+    padding: 0 2vw 0 10vw;
+}
+.section3_pd_comp_2_even{
+    max-width: 50%;
+    height: fit-content;
+    padding: 0 10vw 0 2vw;
+}
+.search_pd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4dfdf;
+    height: 10vh;
+    width: 5vw;
+    border: #747070 2px solid;
+}
+.search_pd:hover{
+    background-color: #d8d4d4;
+    cursor: pointer;
+}
+.section3_pd_comp_2_even h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.last_pd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/map.jpeg");
+}
+.last_pd img{
+    width: 60%;
+}
+@media (max-width: 425px){
+    .head_pd_2 h1{
+        font-size: 8vw;
+        font-weight: 700;
+        color: white;
+        text-shadow: 8px 8px 4px black;
+    }
+    .select_pd select{
+        width: 20%;
+        height: 5vh;
+        font-size: 1.7vw;
+        border: 1px solid #747070;
+        background-color: #e4dfdf;
+    }
+    .section2_pd h1{
+        font-size: 4vw;
+    }
+    .section3_pd_comp{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section3_pd_comp img{
+        width: 50vw;
+    }
+    .section3_pd_comp_even img{
+        width: 50vw;
+    }
+    .section3_pd_comp_even{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .section3_pd_comp_2_even{
+        max-width: 90%;
+        height: fit-content;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .section3_pd_comp_2 h1{
+        font-size: 5vw;
+    }
+    .section3_pd_comp_2_even h1{
+        font-size: 5vw;
+    }
+    .section3_pd_comp_2{
+        max-width: 90%;
+        height: fit-content;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .search_pd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e4dfdf;
+        height: 5vh;
+        width: 5vw;
+        border: #747070 1px solid;
+    }
+}

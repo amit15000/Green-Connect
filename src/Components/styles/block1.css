@@ -1,0 +1,26 @@
+.background {
+    background-image: url('../../Pages/Stakeholders/assets//bb.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .stylish-text {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+  }
+  .stylish-text h1{
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+  }
+  
